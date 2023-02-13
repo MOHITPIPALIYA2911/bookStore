@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "UZPBPhlyM3AFuFfJWZP03eLXe6ZeUeRg0q+EEDR7T5ier7LEuBbZUhRRvCmE7ffJsLYW0MNTccOsPv3rBCecEw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HPX\\OneDrive\\Desktop\\VB_Journal\\bookStore\\bookStore\\bookStore.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HPX\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\HPX\\.nuget\\packages\\system.configuration.configurationmanager\\7.0.0\\system.configuration.configurationmanager.7.0.0.nupkg.sha512",
+    "C:\\Users\\HPX\\.nuget\\packages\\system.data.oledb\\7.0.0\\system.data.oledb.7.0.0.nupkg.sha512",
+    "C:\\Users\\HPX\\.nuget\\packages\\system.diagnostics.performancecounter\\7.0.0\\system.diagnostics.performancecounter.7.0.0.nupkg.sha512",
+    "C:\\Users\\HPX\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\HPX\\.nuget\\packages\\system.security.cryptography.protecteddata\\7.0.0\\system.security.cryptography.protecteddata.7.0.0.nupkg.sha512",
+    "C:\\Users\\HPX\\.nuget\\packages\\system.security.permissions\\7.0.0\\system.security.permissions.7.0.0.nupkg.sha512",
+    "C:\\Users\\HPX\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
