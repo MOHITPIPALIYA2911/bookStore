@@ -25,6 +25,7 @@ Public Class Form1
         adp.Fill(ds, "books")
         GridView.DataSource = ds.Tables("books")
         conn.Close()
+        view_Name()
     End Sub
 
     Private Sub dlt_Click(sender As Object, e As EventArgs) Handles dlt.Click

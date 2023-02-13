@@ -112,7 +112,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.GridView)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Book Store"
         CType(Me.GridView, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.bno, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
