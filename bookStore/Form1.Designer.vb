@@ -29,6 +29,7 @@ Partial Class Form1
         Me.dlt = New System.Windows.Forms.Button()
         Me.bno = New System.Windows.Forms.NumericUpDown()
         Me.show = New System.Windows.Forms.Button()
+        Me.Label3 = New System.Windows.Forms.Label()
         CType(Me.GridView, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.bno, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -57,9 +58,9 @@ Partial Class Form1
         'ttls
         '
         Me.ttls.FormattingEnabled = True
-        Me.ttls.Location = New System.Drawing.Point(12, 105)
+        Me.ttls.Location = New System.Drawing.Point(64, 105)
         Me.ttls.Name = "ttls"
-        Me.ttls.Size = New System.Drawing.Size(314, 23)
+        Me.ttls.Size = New System.Drawing.Size(267, 23)
         Me.ttls.TabIndex = 2
         Me.ttls.TabStop = False
         '
@@ -99,11 +100,23 @@ Partial Class Form1
         Me.show.Text = "Show all"
         Me.show.UseVisualStyleBackColor = True
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label3.ForeColor = System.Drawing.Color.DimGray
+        Me.Label3.Location = New System.Drawing.Point(12, 107)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(46, 19)
+        Me.Label3.TabIndex = 8
+        Me.Label3.Text = "Books"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.show)
         Me.Controls.Add(Me.bno)
         Me.Controls.Add(Me.dlt)
@@ -127,4 +140,5 @@ Partial Class Form1
     Friend WithEvents dlt As Button
     Friend WithEvents bno As NumericUpDown
     Friend WithEvents show As Button
+    Friend WithEvents Label3 As Label
 End Class
